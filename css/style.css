@@ -1,3 +1,28 @@
 body {
-    position: absolute;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.3em;
+    font-weight: bold;
+    min-width: 400px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+header a img {
+    width: 400px;
+}
+
+nav {
+    text-align: center;
+    
+}
+
+nav ul a li {
+    display: inline-block;
+    text-align: center;
+    padding-right: 40px;
+    color: #293646;
 }
