@@ -1,0 +1,18 @@
+section {
+    display: block;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+section p {
+    text-align: justify;
+    margin: 50px 0 0 0;
+}
+
+section p img {
+    width: 180px;
+    float: right;
+    margin: 10px 10px 30px 30px;
+}
