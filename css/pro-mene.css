@@ -15,6 +15,10 @@ main:hover {
     border-radius: 15px;
     -webkit-transform: scale(1.2, 1.2);
     -webkit-transition-duration: 1s;
+    -o-transform: scale(1.2, 1.2);
+    -o-transition-duration: 1s;
+    -ms-transform: scale(1.2, 1.2);
+    -ms-transition-duration: 1s;
 }  
 
 main article {
@@ -38,5 +42,4 @@ main section p img {
     float: right;
     margin: 10px 10px 30px 30px;
     border-radius: 10px;
-    /*box-shadow: 0 0 20px 1px red;*/
 }
