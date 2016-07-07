@@ -25,11 +25,13 @@ nav ul a li {
     text-align: center;
     padding-right: 40px;
     color: #293646;
+    transform: scale(1);
+    transition-duration: 0.7s;
 }
 
 nav ul a li:hover {
     transform: scale(1.1);
-    transition-duration: 0.7s
+    transition-duration: 0.7s;
 }
 
 footer p {

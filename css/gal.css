@@ -10,8 +10,10 @@ div figure {
 }
 
 div figure a img {
+    border-radius: 10px;
     width: 300px;
     opacity: 0.8;
+    transition-duration: 0.6s;
 }
 
 div figure a img:hover {

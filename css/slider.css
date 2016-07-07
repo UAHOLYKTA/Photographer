@@ -1,4 +1,10 @@
 p {
     size: 2em;
     text-align: center;
+    
+}
+
+p:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
