@@ -26,3 +26,15 @@ nav ul a li {
     padding-right: 40px;
     color: #293646;
 }
+
+nav ul a li:hover {
+    transform: scale(1.1);
+    transition-duration: 0.7s
+}
+
+footer p {
+    margin: 15 auto;
+    font-size: 0.8em;
+    text-align: center;
+    
+}

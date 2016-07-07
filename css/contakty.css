@@ -1,0 +1,15 @@
+div{
+    text-align: center;
+    margin: 50px auto;
+    width: 400px;
+}
+
+div a{
+    text-decoration: none;
+    color: #293646;
+}
+
+div a img {
+    width: 30px;
+    margin-top: 8px;
+}
