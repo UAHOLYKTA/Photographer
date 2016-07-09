@@ -5,14 +5,12 @@ main {
     width: 700px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 11px;
     transform: scale(1, 1);
     transition-duration: 1s;
 }
 
 main:hover {
     box-shadow: 0 0 15px grey;
-    border-radius: 11px;
 }  
 
 main article {
@@ -36,6 +34,5 @@ main section p img {
     width: 190px;
     float: right;
     margin: 10px 10px 30px 30px;
-    border-radius: 10px;
     box-shadow: 0 0 5px;
 }

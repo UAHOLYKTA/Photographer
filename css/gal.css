@@ -1,19 +1,20 @@
 div {
     text-align: center;
     margin: 0 auto;
-    width: 1000px;
+    width: 1200px;
     
 }
 
 div figure {
     display: inline-block;
+    margin: 10px 10px;
 }
 
 div figure a img {
-    border-radius: 10px;
     width: 300px;
     opacity: 0.8;
     transition-duration: 0.6s;
+    
 }
 
 div figure a img:hover {
@@ -23,4 +24,5 @@ div figure a img:hover {
 
 div figure a{
     color: #293646;
+    text-decoration: none;
 }

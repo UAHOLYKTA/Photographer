@@ -9,10 +9,35 @@ body {
 
 header {
     text-align: center;
+    margin: 0 0 0 0;
 }
+
+
 
 header a img {
     width: 400px;
+    
+}
+
+.verh {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: 10px 0 2px 0;
+}
+
+.nyz {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: 0 0 0 0;
+}
+
+#logo {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: 0px 0 2px 0;
 }
 
 nav {
@@ -20,18 +45,29 @@ nav {
     
 }
 
-nav ul a li {
+nav ul {
+    margin: 5px 0 0 0;
+}
+
+nav ul li {
     display: inline-block;
     text-align: center;
     padding-right: 40px;
     color: #293646;
     transform: scale(1);
     transition-duration: 0.7s;
+    
+    
 }
 
-nav ul a li:hover {
+nav ul li:hover {
     transform: scale(1.1);
     transition-duration: 0.7s;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #293646;
 }
 
 footer p {
